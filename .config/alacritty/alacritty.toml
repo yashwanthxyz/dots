@@ -22,10 +22,38 @@ style = "Bold Italic"
 [window]
 padding = { x = 12, y = 12 }
 decorations = "Full"
-dynamic_padding = true
+dynamic_padding = false
+startup_mode = "Windowed"
+dynamic_title = false
 opacity = 1.0
 dimensions = { columns = 95, lines = 25 }
 
 [shell]
 program = "C://WINDOWS//system32//wsl.exe -d Ubuntu"
 args = ["--cd ~"]
+
+[colors.primary]
+background = "#0C0C0C"
+foreground = "#CCCCCC"
+
+[colors.cursor]
+text = "#FFFFFF"
+cursor = "#FFFFFF"
+
+[colors.normal]
+black = "#0C0C0C"
+blue = "#0037DA"
+cyan = "#3A96DD"
+green = "#13A10E"
+red = "#C50F1F"
+white = "#CCCCCC"
+yellow = "#C19C00"
+
+[colors.bright]
+black = "#767676"
+blue = "#3B78FF"
+cyan = "#61D6D6"
+green = "#16C60C"
+red = "#E74856"
+white = "#F2F2F2"
+yellow = "#F9F1A5"
