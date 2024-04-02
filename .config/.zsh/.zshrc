@@ -1,7 +1,9 @@
-## History file configuration
-[ -z "$HISTFILE" ] && HISTFILE="$HOME/.zsh_history"
+# History file configuration
+HISTFILE="$HOME/.zsh_history"
 HISTSIZE=50000
 SAVEHIST=10000
+
+setopt EXTENDED_HISTORY HIST_EXPIRE_DUPS_FIRST HIST_FIND_NO_DUPS HIST_IGNORE_ALL_DUPS HIST_IGNORE_DUPS HIST_IGNORE_SPACE HIST_SAVE_NO_DUPS SHARE_HISTORY
 
 # initialize starship
 eval "$(starship init zsh)"
@@ -20,3 +22,4 @@ export NVM_DIR="$HOME/.nvm"
 
 # plugins
 source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
