@@ -1,12 +1,14 @@
 {
   // font settings
-  "editor.fontFamily": "Firacode Nerd Font, 'Courier New', monospace",
+  "editor.fontFamily": "FiraCode Nerd Font",
   "editor.fontSize": 16,
   "editor.lineHeight": 1.42857,
   "terminal.integrated.fontSize": 16,
+  "terminal.integrated.lineHeight": 1.42857,
 
   // cursor settings
   "editor.cursorBlinking": "smooth",
+  "editor.cursorStyle": "line",
   "editor.cursorSmoothCaretAnimation": "on",
 
   // file settings
@@ -24,6 +26,8 @@
   "editor.tabSize": 3,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.wordWrap": "on",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
 
   // workbench settings
   "workbench.statusBar.visible": false,
@@ -36,5 +40,11 @@
   "window.menuBarVisibility": "compact",
   "window.commandCenter": false,
   "editor.minimap.enabled": false,
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+
+  // terminal settings
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorStyleInactive": "none",
+  "terminal.integrated.cursorBlinking": true,
+  "workbench.colorTheme": "Catppuccin Mocha"
 }
