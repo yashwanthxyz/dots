@@ -13,6 +13,7 @@
   "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
   "workbench.activityBar.location": "hidden",
+  "window.menuBarVisibility": "compact",
   "editor.occurrencesHighlight": "off",
   "editor.selectionHighlight": false,
   "editor.suggestOnTriggerCharacters": false,
