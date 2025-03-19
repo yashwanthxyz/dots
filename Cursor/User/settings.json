@@ -1,5 +1,5 @@
 {
-  "workbench.startupEditor": "none",
+  "workbench.activityBar.orientation": "vertical",
   "editor.accessibilitySupport": "off",
   "extensions.ignoreRecommendations": true,
 
@@ -13,7 +13,6 @@
   "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
   "workbench.activityBar.location": "hidden",
-  "window.menuBarVisibility": "compact",
   "editor.occurrencesHighlight": "off",
   "editor.selectionHighlight": false,
   "editor.suggestOnTriggerCharacters": false,
@@ -21,19 +20,18 @@
   "files.trimTrailingWhitespace": true,
   "editor.hideCursorInOverviewRuler": true,
   "workbench.statusBar.visible": false,
-  "workbench.editor.showTabs": "single",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.editor.showTabs": "multiple",
 
   // window padding
   "editor.padding.bottom": 12,
   "editor.padding.top": 12,
 
   // font
-  "editor.fontFamily": "Cascadia Mono",
-  "editor.fontSize": 16,
+  "editor.fontFamily": "CaskaydiaMono Nerd Font",
+  "editor.fontSize": 15,
   "editor.lineHeight": 1.42857,
-  "terminal.integrated.fontFamily": "Cascadia Mono",
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "CaskaydiaMono Nerd Font",
+  "terminal.integrated.fontSize": 15,
   "terminal.integrated.lineHeight": 1.42857,
 
   // files autosave
@@ -56,5 +54,8 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Catppuccin Mocha",
   "catppuccin.italicComments": false,
-  "catppuccin.italicKeywords": false
+  "catppuccin.italicKeywords": false,
+
+  "window.titleBarStyle": "native",
+  "window.menuBarVisibility": "toggle"
 }
